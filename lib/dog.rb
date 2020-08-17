@@ -13,6 +13,10 @@ class Dog
     @@all << self
   end
   
+  def all
+    @@all
+  end
+  
   def print_all
     @all.each do |name|
       puts name
